@@ -1,2 +1,2 @@
-# uberlamb
+# Ewery
 Farm blog with Astro
