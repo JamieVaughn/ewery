@@ -1,10 +1,10 @@
 {
-	"name": "odyssey-theme",
+	"name": "genesee-ewery",
 	"version": "2.0.2",
 	"private": false,
 	"repository": {
 		"type": "git",
-		"url": "git@github.com:treefarmstudio/odyssey-theme"
+		"url": "git@github.com:jamievaughn/ewery"
 	},
 	"scripts": {
 		"dev": "astro dev",
