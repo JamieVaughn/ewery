@@ -1,0 +1,35 @@
+---
+import { TextSection } from '@components/theme';
+import Layout from '../../layouts/Page.astro';
+import HeroSection from '../../components/sections/heros/HeroSection.astro';
+
+const seo = {
+	title: 'About | Genesee Ewery Theme',
+	description: 'About Page',
+};
+---
+
+<Layout {seo}>
+	<HeroSection>
+		<div slot="text-container">
+			<h1>About Genesee Ewery</h1>
+			<p>
+				Barbados Blackbelly Sheep
+			</p>
+		</div>
+    <picture slot="image-container">
+      <img
+        src="/assets/img/gibbs.jpg"
+        alt="Ram"
+        id="home-hero-image"
+      />
+    </picture>
+	</HeroSection>
+  <TextSection narrow>
+    The Barbados Blackbelly breed descended from hair sheep brought to the island of Barbados by African slave traders during the 1600s.  While our sheep are descendents of sheep evolved in the tropics, Barbados Blackbelly Sheep retain the ability to adapt to the cold of our area with a heavy coarse coat which is shed in the spring. Rams weigh between 100 to 125 lb  and ewes weigh between 90 to 100 lb. They have a deer-like appearance with the additional striking black bars on their heads. Males carry a handsome ruffle on their chests.  Both females and males are without horns (polled), this sets Barbados Blackbelly Sheep apart from similar crossbred sheep sometimes called American Blackbellies.
+
+    We will have market weight cross bred lambs ready for Fall and Winter 2016. Last year we sold out of our handsome cross bred lambs by September. This year we decided to lamb in the spring and will know what lambs we will have by May. Please contact us for pricing.
+
+    We are still in the process of developing our Registered flock. We may have some available registerable rams on the ground in May. Stay tuned or better yet drop us a line and we will contact you.
+  </TextSection>
+</Layout>

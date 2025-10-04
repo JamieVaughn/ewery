@@ -1,5 +1,7 @@
 ---
 import { Container } from '@components/theme';
+
+const { split } = Astro.props
 ---
 
 <Container>
@@ -25,7 +27,9 @@ import { Container } from '@components/theme';
 	}
 	.hero-section__text {
 		justify-self: center;
-		max-width: 25rem;
+		&:has(.full-title) {
+			grid-column: span 2;
+		}
 	}
 	.hero-btns__container {
 		display: flex;
