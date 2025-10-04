@@ -7,8 +7,8 @@ import lit from "@astrojs/lit";
 // https://astro.build/config
 export default defineConfig({
   site: 'https://jamievaughn.github.io',
-  base: '/',
   // site: 'https://barbadosblackbellysheep.biz/',
+  base: '/ewery',
   sitemap: true, // Generate sitemap (set to "false" to disable)
   integrations: [sitemap(), mdx(), lit(), icon()], // Add renderers to the config
 });
