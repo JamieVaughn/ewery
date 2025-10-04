@@ -13,7 +13,7 @@ export const nav = [
 	},
 	{
 		title: 'Location',
-		slug: '/company/location',
+		slug: '/company/address',
 	},
 	{
 		title: 'Contact',
