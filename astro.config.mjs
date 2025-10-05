@@ -6,9 +6,9 @@ import lit from "@astrojs/lit";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://jamievaughn.github.io',
-  // site: 'https://barbadosblackbellysheep.biz/',
-  base: '/ewery',
+  // site: 'https://jamievaughn.github.io',
+  site: 'https://barbadosblackbellysheep.biz/',
+  base: '/',
   sitemap: true, // Generate sitemap (set to "false" to disable)
   integrations: [sitemap(), mdx(), lit(), icon()], // Add renderers to the config
 });
